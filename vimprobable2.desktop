@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Vimprobable
+Comment=Vimprobable is a lean stand-alone web browser optimised for full keyboard control
+Exec=vimprobable2 %u
+Icon=vimprobable2
+Terminal=false
+Type=Application
+Categories=GTK;Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;

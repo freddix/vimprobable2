@@ -1,0 +1,12 @@
+diff -aurN vimprobable2.orig/config.h vimprobable2/config.h
+--- vimprobable2.orig/config.h	2013-08-09 18:46:09.250740872 +0200
++++ vimprobable2/config.h	2013-08-09 18:50:25.888602633 +0200
+@@ -93,7 +93,7 @@
+ 
+ /* ssl */
+ static gboolean strict_ssl              = TRUE; /* FALSE will accept any SSL certificate at face value */
+-static char ca_bundle[MAX_SETTING_SIZE] = "/etc/ssl/certs/ca-certificates.crt";
++static char ca_bundle[MAX_SETTING_SIZE] = "/etc/certs/ca-certificates.crt";
+ 
+ /* proxy */
+ static const gboolean use_proxy         = TRUE; /* TRUE if you're going to use a proxy (whose address
