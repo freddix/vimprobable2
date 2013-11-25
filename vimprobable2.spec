@@ -1,11 +1,11 @@
 Summary:	Lean web browser optimised for full keyboard control
 Name:		vimprobable2
-Version:	1.3.0
+Version:	1.4.0
 Release:	1
 License:	BSD-like
 Group:		X11/Applications
 Source0:	http://downloads.sourceforge.net/sourceforge/vimprobable/Releases/%{name}_%{version}.tar.bz2
-# Source0-md5:	474edf9bf1eb55e1ec7c0adaba7b93f5
+# Source0-md5:	4eb5630b4a6b975152de08c1ff918353
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch0:		%{name}-config.patch
